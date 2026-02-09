@@ -2,30 +2,30 @@ Your Full Name- Vijay Duhan
 
 Student Number- 041178881
 
-Capstone Project Name- Bake with Love
+Capstone Project Name- Cosmos
 
-Design Choices-The Bake With Love website now looks cozy, sweet, and homemade. Instead of looking like a stiff business site, it uses soft shapes to remind people of fresh baking. We use close-up photos of things like flour and frosting to make visitors feel connected to the food. 
+Design Choices-For the Cosmos project, the visual design shifts from a structural low-fidelity wireframe to a high-fidelity "Dark Mode" aesthetic. The goal was to create an immersive, cinematic experience that mirrors the vastness of space.
 
 Color and Font Selection
 color Palette:
-Primary: Soft Pink (#F4C2C2)
-Secondary: Cream (#FFFDD0)
-Accent: Chocolate Brown: (#4B3621)
+Primary: Deep space blue (#05070A)
+Secondary: Solar Orange (#FF6B00) AND Nebula Blue (#00C2CB)
+Accent: Stark White: (#FFFFFF)
 
 Typography:
 Headings: A playful Script FOnt
 Body Text: A clean Sans-Serif
 
 Dekstop View:
-The Feature section lists Pastry Classes, Custom Orders, and Delivery side-by-side in three columns to make the best use of the screen width. The top Hero section is divided into a split layout (half-and-half).
+Utilizes a wide layout with a dedicated "Hero Section" to showcase the Astronomy Picture of the Day. The content below follows a 3-column grid for "Related Topics" and "Image Details," maximizing the use of screen real estate.
 
 Mobile/Tablet View:
-On mobile devices, the design changes to a simple vertical list. Buttons and cards stretch all the way across the screen, making them big and easy to tap with a thumb. In the top section, we moved the pictures below the headline so the main message ("Bake. Share. Love.") is the very first thing people see.
+The grid adapts to a 2-column layout. The main image remains prominent, while secondary information wraps fluidly to ensure text remains readable without shrinking.
 
  Usability and User Experience Improvements:
 
- Visual Heirarchy: We put different services, like Classes and Orders, into their own separate boxes (cards) with plenty of space in between. This organizes the content so users can quickly skim the page and find exactly what they are looking for.
+ Visual Heirarchy: The design establishes a clear hierarchy using size and color. The "Today's Image" is the largest element, immediately telling the user what is most important. Secondary data is contained in smaller, uniform cards.
 
- Accessibility: The switch from pure black text to dark brown on cream backgrounds provides sufficient contrast for readability while reducing the harsh glare often found in high-contrast black-and-white designs.
+ Accessibility: By using a dark interface, the design reduces the glare often associated with bright white websites, which is particularly helpful for users viewing the site in low-light environments (a common context for astronomy enthusiasts).
 
- Iconography: We use custom line drawings for each service section. These simple pictures (like a whisk for classes, a cupcake for orders, or an oven for delivery) help users instantly understand what is offered without having to read the text first.
+ Iconography: The move from a text-heavy wireframe to a visual card layout allows users to quickly scan headers and images to find the content they are interested in, rather than reading long blocks of text.
