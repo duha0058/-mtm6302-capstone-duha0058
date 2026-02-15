@@ -29,3 +29,24 @@ The grid adapts to a 2-column layout. The main image remains prominent, while se
  Accessibility: By using a dark interface, the design reduces the glare often associated with bright white websites, which is particularly helpful for users viewing the site in low-light environments (a common context for astronomy enthusiasts).
 
  Iconography: The move from a text-heavy wireframe to a visual card layout allows users to quickly scan headers and images to find the content they are interested in, rather than reading long blocks of text.
+
+ Steps Takebn to create the prototype
+
+ 1: STructure and Setup
+ Git Workflow: Created a new branch named `prototype-development` to isolate changes. Established a clean folder structure separating HTML, CSS, JavaScript, and a `designs/` folder for assets.
+ HTML Architecture:Built the `index.html` file using semantic HTML5 tags (`<header>`, `<main>`, `<section>`, `<footer>`) to ensure accessibility and proper document flow.
+ Asset Integration: Exported high-fidelity assets (Big Sun, Blue Galaxy, etc.) and integrated them into the layout using responsive `<img>` tags.
+
+ 2:Styling CSS
+ Color Palette: Defined CSS Custom Properties (Variables) to strictly adhere to the "Deep Space" theme:
+  `--bg-dark` (#05070A) for the primary background.
+  `--accent-orange` (#FF6B00) for high-contrast highlights (matching the Sun image).
+
+ 3:Layout systems
+ CSS Grid: Used for the "Featured Card" (2-column split) and the "Info Grid" (3-column layout) to perfectly match the visual mockup.
+ Flexbox: Utilized for the Navigation bar and Footer to align items horizontally.
+
+4:Resouces Used
+Fonts: [Google Fonts](https://fonts.google.com/) - Used the Inter font family for a clean, scientific, and modern typography style.
+Icons: [Font Awesome](https://fontawesome.com/) - Used for the Search icon, Social Media icons, and UI indicators (arrows, meteors).
+Code Validation:W3C HTML Validator to ensure compliant code.
