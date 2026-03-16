@@ -10,110 +10,105 @@
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">
-            <img src="designs/logo.png" alt="Cosmos Logo">
-            COSMOS
-        </div>
-        
-        <ul class="nav-links">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="search-icon"><i class="fas fa-search"></i></li>
-        </ul>
+<nav class="navbar">
+    <div class="logo">
+        <img src="designs/logo.png" alt="Cosmos Logo">
+        COSMOS
+    </div>
+    
+    <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="search-icon"><i class="fas fa-search"></i></li>
+    </ul>
 
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-    </nav>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <h1>ASTRONOMY PICTURE OF THE DAY</h1>
-            <p>Discover the cosmos, one image at a time.</p>
-        </div>
-    </header>
+<header class="hero">
+    <div class="hero-content">
+        <h1>ASTRONOMY PICTURE OF THE DAY</h1>
+        <p>Discover the cosmos, one image at a time.</p>
+    </div>
+</header>
 
-    <main class="container">
-        
-        <section class="featured-card">
+<main class="container">
+
+<section class="featured-card">
     <div class="featured-image">
-        <img id="apod-image" src="designs/Blue Gallaxy.png.png" alt="Loading space image...">
+        <img id="apod-image" src="designs/Blue Gallaxy.png" alt="Loading space image...">
     </div>
     <div class="featured-text">
         <h2 id="apod-title">Loading Today's Image...</h2>
-        <p id="apod-explanation">Connecting to NASA databases to fetch the latest discoveries...</p>
+        <p id="apod-explanation">
+            Connecting to NASA databases to fetch the latest discoveries...
+        </p>
     </div>
 </section>
 
-<div class="card">
-    <div class="card-content">
-        <h3>Image Details</h3>
-        <ul class="detail-list">
-            <li id="apod-date"><strong>Date:</strong> Loading...</li>
-            <li id="apod-credit"><strong>Credit:</strong> Loading...</li>
-            <li><strong>Location:</strong> Earth's Sky</li>
-        </ul>
+<div class="info-grid">
+
+    <div class="card">
+        <div class="card-content">
+            <h3>Related Topics</h3>
+            <ul class="topic-list">
+                <li>Solar Cycles</li>
+                <li>Sunspots</li>
+                <li>Space Weather</li>
+            </ul>
+        </div>
+        <img src="designs/Red galaxy.png" class="card-thumb" alt="Red Galaxy">
     </div>
-    <img src="designs/Shutter.png" class="card-thumb" alt="Camera Lens">
+
+    <div class="card">
+        <div class="card-content">
+            <h3>Image Details</h3>
+            <ul class="detail-list">
+                <li id="apod-date"><strong>Date:</strong> Loading...</li>
+                <li id="apod-credit"><strong>Credit:</strong> Loading...</li>
+                <li><strong>Location:</strong> Earth's Sky</li>
+            </ul>
+        </div>
+        <img src="designs/Shutter.png" class="card-thumb" alt="Camera Lens">
+    </div>
+
+    <div class="card">
+        <div class="card-content">
+            <h3>Learn More</h3>
+            <p class="learn-text">
+                Browse archives to discover more wonders of the cosmos.
+            </p>
+            <button class="btn-archive">
+                View Archive <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+        <img src="designs/Rocket launch.png" class="card-thumb" alt="Rocket Launch">
+    </div>
+
 </div>
 
-        <div class="info-grid">
-            
-            <div class="card">
-                <div class="card-content">
-                    <h3>Related Topics</h3>
-                    <ul class="topic-list">
-                        <li> Solar Cycles</li>
-                        <li> Sunspots</li>
-                        <li> Space Weather</li>
-                    </ul>
-                </div>
-                <img src="designs/Red galaxy.png" class="card-thumb" alt="Red Galaxy">
-            </div>
+</main>
 
-            <div class="card">
-                <div class="card-content">
-                    <h3>Image Details</h3>
-                    <ul class="detail-list">
-                        <li><strong>Date:</strong> February 15, 2026</li>
-                        <li><strong>Credit:</strong> Daniel Korona</li>
-                        <li><strong>Location:</strong> Earth's Sky</li>
-                    </ul>
-                </div>
-                <img src="designs/Shutter.png" class="card-thumb" alt="Camera Lens">
-            </div>
+<footer>
+    <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="#">NASA/APOD Links</a>
+    </div>
+    <div class="socials">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+    </div>
+</footer>
 
-            <div class="card">
-                <div class="card-content">
-                    <h3>Learn More</h3>
-                    <p class="learn-text">Browse archives to discover more monsters of the cosmos.</p>
-                    <button class="btn-archive">View Archive <i class="fas fa-arrow-right"></i></button>
-                </div>
-                <img src="designs/Rocket launch.png" class="card-thumb" alt="Rocket Launch">
-            </div>
-
-        </div>
-    </main>
-
-    <footer>
-        <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms</a>
-            <a href="#">NASA/APOD Links</a>
-        </div>
-        <div class="socials">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
