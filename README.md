@@ -33,14 +33,14 @@ The grid adapts to a 2-column layout. The main image remains prominent, while se
  Steps Takebn to create the prototype
 
  1: STructure and Setup
- Git Workflow: Created a new branch named `prototype-development` to isolate changes. Established a clean folder structure separating HTML, CSS, JavaScript, and a `designs/` folder for assets.
- HTML Architecture:Built the `index.html` file using semantic HTML5 tags (`<header>`, `<main>`, `<section>`, `<footer>`) to ensure accessibility and proper document flow.
- Asset Integration: Exported high-fidelity assets (Big Sun, Blue Galaxy, etc.) and integrated them into the layout using responsive `<img>` tags.
+ Git Workflow: Created a new branch named prototype-development to isolate changes. Established a clean folder structure separating HTML, CSS, JavaScript, and a designs/ folder for assets.
+ HTML Architecture:Built the index.html file using semantic HTML5 tags (<header>, <main>, <section>, <footer>) to ensure accessibility and proper document flow.
+ Asset Integration: Exported high-fidelity assets (Big Sun, Blue Galaxy, etc.) and integrated them into the layout using responsive <img> tags.
 
  2:Styling CSS
  Color Palette: Defined CSS Custom Properties (Variables) to strictly adhere to the "Deep Space" theme:
-  `--bg-dark` (#05070A) for the primary background.
-  `--accent-orange` (#FF6B00) for high-contrast highlights (matching the Sun image).
+  bg-dark (#05070A) for the primary background.
+  accent-orange (#FF6B00) for high-contrast highlights (matching the Sun image).
 
  3:Layout systems
  CSS Grid: Used for the "Featured Card" (2-column split) and the "Info Grid" (3-column layout) to perfectly match the visual mockup.
@@ -50,3 +50,27 @@ The grid adapts to a 2-column layout. The main image remains prominent, while se
 Fonts: [Google Fonts](https://fonts.google.com/) - Used the Inter font family for a clean, scientific, and modern typography style.
 Icons: [Font Awesome](https://fontawesome.com/) - Used for the Search icon, Social Media icons, and UI indicators (arrows, meteors).
 Code Validation:W3C HTML Validator to ensure compliant code.
+
+Part 4 – Web Application
+
+The Cosmos prototype was developed into a working web application using HTML, CSS, and JavaScript. The site now connects to NASA’s Astronomy Picture of the Day (APOD) API and dynamically displays the image, title, explanation, date, and credit directly on the page. The data is retrieved using the Fetch API and inserted into the page using JavaScript without refreshing the browser. This allows the website to automatically update with the latest astronomy image each day while keeping the responsive layout created during the prototype stage.
+
+Steps Taken
+
+1.Created a new part-4 branch from the prototype-development branch.
+
+2.Updated the HTML to include placeholders for the APOD image and information.
+
+3.Added JavaScript to fetch data from the NASA APOD API.
+
+4.Used DOM manipulation to display the returned data on the page.
+
+5.Tested the site to ensure it remained responsive and worked without page refresh.
+
+Resources Used
+
+NASA APOD API documentation, MDN Web Docs, Google Fonts, Font Awesome, and W3C validators.
+
+Challenges
+
+One challenge was working with API requests and making sure the data loaded correctly on the page. Another was integrating the dynamic content while keeping the layout responsive and visually consistent with the original design.
